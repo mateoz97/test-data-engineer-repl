@@ -1,0 +1,19 @@
+[project]
+name = "TEST-DATA-ENGINEER-REPL"
+version = "0.0.1"
+description = "test con apache beam"
+authors = [
+    {name = "mateooh97",email = "mateooh97@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "wheel (>=0.45.1,<0.46.0)",
+    "apache-beam[gcp] (>=2.61.0,<3.0.0)"
+]
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
